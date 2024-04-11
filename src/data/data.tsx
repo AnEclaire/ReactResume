@@ -29,8 +29,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume',
-  description: "Emma Gutierrez's Resume built off of and modified from Tim Baker's react resume template",
+  title: 'Emma Gutierrez Resume',
+  description: "Emma Gutierrez's Resume website with links to relevant sites. Based off of and modified from Tim Baker's react resume template.",
 };
 
 /**
