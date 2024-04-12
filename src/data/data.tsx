@@ -98,7 +98,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Fontana, CA', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'American / Mexican', Icon: FlagIcon},
-    {label: 'Interests', text: 'Video and Tabletop Games, Tech, Severs, Programming, TV Shows', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Video and Tabletop Games, Tech, Severs, Programming, K-Drama, TV', Icon: SparklesIcon},
     {label: 'Study', text: 'California State Polytechnic University, Pomona', Icon: AcademicCapIcon},
   ],
 };
