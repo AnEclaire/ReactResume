@@ -89,9 +89,11 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I have always had a passion for learning new technologies and working with computers.
+  Primarily, I am always striving to deepen my knowledge of new programming languages and toolsets. I am
+  currentlly engaged in familiarizing myself with machine learning, language models, and software engineering
+  as part of several new course. When it comes to new languages, technology, software engineering, or computers, 
+  I am always ready and willing to dedicate myself completely to grasping it as much as I can.`,
   aboutItems: [
     {label: 'Location', text: 'Fontana, CA', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
@@ -186,10 +188,10 @@ export const education: TimelineItem[] = [
     date: 'August 2023 - Ongoing',
     location: 'California State Polytechnic University, Pomona',
     title: 'Bachelors in Computer Science',
-    content: <p>Thorought this last year I have learned and become rather proficient at Statistics, Computer Architecture, CyberSecurity, Machine Learning,
-      Prompt Engineering, and especially Mobile Development with Flutter. My second admission to CPP has also served to thoroughly refresh my memory and 
-      skills on the topics I learned from the first admission. In my first semester back after 5 years of leave I earned Dean's List for grades attained
-      in my courses.</p>,
+    content: <p>Throughout this last year I have deepend my skillset by learning multiplatform mobile development, becoming familiarized with 
+      different forms of artificial intelligence, practicing Cybersecurity standards, and more. My second admission to Cal Poly has also served 
+      to thoroughly refresh my memory and skills on the topics I learned from my first admission. In my first semester back after 5 years of leave 
+      I earned Dean's List for grades attained in my courses.</p>,
   },
   {
     date: 'August 2012 - March 2018',
