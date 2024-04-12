@@ -12,6 +12,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -30,7 +31,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Emma Gutierrez Resume',
-  description: "Emma Gutierrez's Resume website with links to relevant sites. Based off of and modified from Tim Baker's react resume template.",
+  description: "Emma Gutierrez's Resume Website.",
 };
 
 /**
@@ -168,6 +169,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Senior Project for Mobile Development Class. Simple Phasmophobia game aid and tracker.',
     url: 'https://github.com/AnEclaire/YAPT',
     image: porfolioImage1,
+  },
+  {
+    title: 'React Based Resume Website',
+    description: 'React based resume website. Based off of a template, modified to fit my needs. Dockerized for portability onto a self-hosted server and runs behind self-managed nginx proxy. This site you are browsing is runnning from my closet!',
+    url: 'https://github.com/AnEclaire/ReactResume',
+    image: porfolioImage2,
   },
 ];
 
