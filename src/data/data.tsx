@@ -11,9 +11,8 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolioImage-1.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolioImage3.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -97,7 +96,7 @@ export const aboutData: About = {
   I am always ready and willing to dedicate myself completely to grasping it as much as I can.`,
   aboutItems: [
     {label: 'Location', text: 'Fontana, CA', Icon: MapIcon},
-    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'American / Mexican', Icon: FlagIcon},
     {label: 'Interests', text: 'Video and Tabletop Games, Tech, Severs, Programming, K-Drama, TV', Icon: SparklesIcon},
     {label: 'Study', text: 'California State Polytechnic University, Pomona', Icon: AcademicCapIcon},
@@ -168,15 +167,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'React-Vite Based Generative Audio Model',
-    description: 'React-Vite based Generative AI audio model. Powered by bark and Python Flask. Given text, it can generate natural-sounding audio clips of one of 130 voices or 13 languages of that text with the ability to gesticulate vocally.',
-    url: 'https://github.com/AnEclaire/React-Bark-GUI',
-    image: porfolioImage3,
-  },
-  {
     title: 'Yet Another Phasmophobia Tracker - YAPT',
-    description: 'Senior Project for Mobile Development Class. Simple Phasmophobia game aid. Works like in-game Journal. Developed for use when playing Phasmophobia with a controller as menu navigation with a controller is too cumbersome to do in real-time.',
-    url: 'https://play.google.com/store/apps/details?id=yapt.himawari.app&hl=en_US&gl=US',
+    description: 'Senior Project for Mobile Development Class. Simple Phasmophobia game aid and tracker.',
+    url: 'https://github.com/AnEclaire/YAPT',
     image: porfolioImage1,
   },
   {
