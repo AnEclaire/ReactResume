@@ -168,9 +168,15 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Yet Another Phasmophobia Tracker - YAPT',
-    description: 'Senior Project for Mobile Development Class. Simple Phasmophobia game aid and tracker.',
-    url: 'https://github.com/AnEclaire/YAPT',
+    description: 'Senior Project for Mobile Development Class. Simple Phasmophobia game aid. Works like in-game Journal. Developed for use when playing Phasmophobia with a controller as menu navigation with a controller is too cumbersome to do in real-time.',
+    url: 'https://play.google.com/store/apps/details?id=yapt.himawari.app&hl=en_US&gl=US',
     image: porfolioImage1,
+  },  
+  {
+    title: 'React-Vite Based Generative Audio Model',
+    description: 'React-Vite based Generative AI audio model. Powered by bark and Python Flask. Given text, it can generate natural-sounding audio clips of one of 130 voices or 13 languages of that text with the ability to gesticulate vocally.',
+    url: 'https://github.com/AnEclaire/React-Bark-GUI',
+    image: porfolioImage2,
   },
 ];
 
