@@ -11,8 +11,8 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolioImage-1.jpg';
-import porfolioImage3 from '../images/portfolio/portfolioImage3.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -167,16 +167,16 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'React-Vite Based Generative Audio Model',
-    description: 'React-Vite based Generative AI audio model. Powered by bark and Python Flask. Given text, it can generate natural-sounding audio clips of one of 130 voices or 13 languages of that text with the ability to gesticulate vocally.',
-    url: 'https://github.com/AnEclaire/React-Bark-GUI',
-    image: porfolioImage3,
-  },
-  {
     title: 'Yet Another Phasmophobia Tracker - YAPT',
     description: 'Senior Project for Mobile Development Class. Simple Phasmophobia game aid. Works like in-game Journal. Developed for use when playing Phasmophobia with a controller as menu navigation with a controller is too cumbersome to do in real-time.',
     url: 'https://play.google.com/store/apps/details?id=yapt.himawari.app&hl=en_US&gl=US',
     image: porfolioImage1,
+  },  
+  {
+    title: 'React-Vite Based Generative Audio Model',
+    description: 'React-Vite based Generative AI audio model. Powered by bark and Python Flask. Given text, it can generate natural-sounding audio clips of one of 130 voices or 13 languages of that text with the ability to gesticulate vocally.',
+    url: 'https://github.com/AnEclaire/React-Bark-GUI',
+    image: porfolioImage2,
   },
 ];
 
