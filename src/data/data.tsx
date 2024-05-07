@@ -179,12 +179,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://play.google.com/store/apps/details?id=yapt.himawari.app&hl=en_US&gl=US',
     image: porfolioImage1,
   },
-  {
-    title: 'React Based Resume Website',
-    description: 'React based resume website. Based off of a template, modified to fit my needs. Dockerized for portability onto a self-hosted server and runs behind self-managed nginx proxy. This site you are browsing is runnning from my closet!',
-    url: 'https://github.com/AnEclaire/ReactResume',
-    image: porfolioImage2,
-  },
 ];
 
 /**
